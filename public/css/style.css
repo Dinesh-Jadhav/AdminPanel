@@ -1,0 +1,30 @@
+nav.navbar.navbar-inverse.navbar-fixed-top.headerdemo {
+    background-color: #ffcc29;
+    /*#f5f5f5  ffcc29*/
+}
+.navbar-inverse .navbar-brand {
+    color: #000;
+}
+
+img.logo {
+    margin-left: -9%;
+    margin-top: -9%;
+    width: 230px;
+    height: 56px;
+}
+
+.panel.panel-default.top {
+    margin-top: 20%;
+}
+
+.panel-default>.panel-heading {
+    /* color: #333; */
+    /* background-color: #f5f5f5; */
+    /* border-color: #ddd; */
+}
+
+.container.widths{
+    width: 90%;
+    margin-top: 7%;
+}
+

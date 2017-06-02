@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+  <title> Add New Compitition </title></head>
+<header></header>
+<body>
+<form  name = "competitionForm" ng-submit="add_competition()">
+<div class="container widths">
+  
+  
+    <div class="row">
+    <ul class="breadcrumb">
+    <li>Add New Compitition</li>
+    </ul>
+    </div>
+     <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8 border">
+       <label class="col-lg-2"> Competition</label>
+       <textarea placeholder="Describe  here..." class="col-lg-10" ng-model="comp.name"></textarea>
+       </div>
+     </div>
+
+     <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8 border">
+       <label class="col-lg-2"> Dataset</label>
+       <textarea placeholder="Dataset here..." class="col-lg-10" ng-model="comp.dataset"></textarea>
+       </div>
+     </div>
+
+     <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8 border">
+       <label class="col-lg-2"> Description</label>
+       <textarea placeholder="description here..." class="col-lg-10" ng-model="comp.description"></textarea>
+       </div>
+     </div>
+
+     <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8 border">
+       <label class="col-lg-2"> Price</label>
+       <textarea placeholder="price here..." class="col-lg-10" ng-model="comp.price"></textarea>
+       </div>
+     </div>
+
+     <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8 border">
+       <label class="col-lg-2">Start Date</label>
+       <textarea placeholder="date here..." class="col-lg-10" ng-model="comp.start_date"></textarea>
+       </div>
+     </div>
+    <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8 border">
+       <label class="col-lg-2">End Date</label>
+       <textarea placeholder="date here..." class="col-lg-10" ng-model="comp.end_date"></textarea>
+       </div>
+     </div>
+
+
+     <div class="col-lg-12 marginTop">
+       <div class= "col-lg-8">
+       <div class="col-lg-2"></div>
+       <button type="submit">Save</button>
+       <button type="Button">Cancel</button>
+       </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

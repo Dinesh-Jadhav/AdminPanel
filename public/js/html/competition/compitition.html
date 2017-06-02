@@ -1,0 +1,94 @@
+<header></header>
+<head>  
+  <title> Compititions </title>
+</head>
+<body>
+<form>
+<div class="container widths">
+    <div class="row">
+    <ul class="breadcrumb">
+    <li>Compititions</li>
+    </ul>
+    </div>
+    <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <h2>List Competition</h2>
+                <div class="table-responsive">
+                    <table id="entry-grid" datatable="ng" dt-Options="dtOptions" dt-column-defs="dtColumnDefs" class="stripe" width="100%">
+                        <thead>
+                            <th> ID</th>
+                            <th>Competition Name</th>
+                            <th>Start Date</th>
+                            <th>Description</th>
+                            <th> Status</th>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="req in items">
+                                <td>{{req._id}}</td>
+                                <td>{{req.competition_name}}</td>
+                                <td>{{req.start_date | date:'dd MMM, yyyy hh:mm a'}}</td>
+                                <td>{{req.description}}</td>
+                                <td>{{req.dataset}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+     <!-- <div class = "row ">
+       <div class = "col-lg-12 marginTop border">
+         <div class = "col-lg-2 marginRightSolid" style="height:62px;">IMAGE</div>
+         <div class = "col-lg-10">
+           <div class="row col-lg-12">Compitition1</div>
+           <div class="row col-lg-8">
+              <div class = "col-lg-6" style="margin-left:-1.7%;">start date:</div>
+              <div class = "col-lg-6">end date:</div>
+           </div>
+           <div class="row col-lg-12">Number of participants</div>
+         </div>
+       </div>
+       <div class = "col-lg-12 marginTop border">
+         <div class = "col-lg-2 marginRightSolid" style=" height:62px;">IMAGE</div>
+         <div class = "col-lg-10">
+           <div class="row col-lg-12">Compitition1</div>
+           <div class="row col-lg-8">
+              <div class = "col-lg-6" style="margin-left:-1.7%;">start date:</div>
+              <div class = "col-lg-6">end date:</div>
+           </div>
+           <div class="row col-lg-12">Number of participants</div>
+         </div>
+       </div>
+       <div class = "col-lg-12 marginTop border">
+         <div class = "col-lg-2 marginRightSolid" style="height:62px;">IMAGE</div>
+         <div class = "col-lg-10">
+           <div class="row col-lg-12">Compitition1</div>
+           <div class="row col-lg-8">
+              <div class = "col-lg-6" style="margin-left:-1.7%;">start date:</div>
+              <div class = "col-lg-6">end date:</div>
+           </div>
+           <div class="row col-lg-12">Number of participants</div>
+         </div>
+       </div>
+       </div>
+
+       <div>
+       <center>
+       <ul class="pagination">
+          <li><a href="#" class="marginRight">1</a></li>
+          <li><a href="#" class="marginRight">2</a></li>
+          <li><a href="#" class="marginRight">3</a></li>
+          <li><a href="#" class="marginRight">4</a></li>
+          <li><a href="#" class="marginRight">5</a></li>
+          <li><b>......</b></li>
+        </ul>
+        </center>
+       </div> -->
+    
+     
+     
+  </div>
+  </form>
+
+
+</body>
+</html>
